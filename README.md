@@ -3,7 +3,7 @@ Master's team project of 3 members designed to showcase the configuration, imple
 implementation and Application development. The [documentation file](https://github.com/AnaOlteanu/MODBD/blob/main/MODBD_documentation.pdf) 
 contains a summary of all the stages of the project, while the [development of the application](https://github.com/AnaOlteanu/MODBD/tree/main/front-end_module) consists of 3 Spring MVC projects 
 that serve as an interface for solving the requirements needed.  
-The theme chosen for this project is the management of hotel reservations. Our application starts from the premise that there is an initial database of a travel agency which is the foundation for the data 
+The theme chosen for this project is the management of **hotel reservations**. Our application starts from the premise that there is an initial database of a travel agency which is the foundation for the data 
 distribution process. Following the process of _geographical data distribution_, several local databases will be obtained, two in number, depending on the country of the hotels: **Romania** or **other countries**. 
 Another **global database** will be configured that will allow global management of all data stored in the system.
 ## Technologies used
