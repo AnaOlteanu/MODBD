@@ -1,5 +1,5 @@
 # Methods of Optimization and Distribution in Databases Oracle project
-Master's team project of 3 members designed to showcase the configuration, implementation, management and using of a _distributed database(DDB)_ starting from an OLTP database. It consists of 3 modules: Analysis, Database 
+Master's team project of 3 members designed to showcase the configuration, implementation, management and using of a _distributed database (DDB)_ starting from an OLTP database. It consists of 3 modules: Analysis, Database 
 implementation and Application development. The [documentation file](https://github.com/AnaOlteanu/MODBD/blob/main/MODBD_documentation.pdf) 
 contains a summary of all the stages of the project, while the [development of the application](https://github.com/AnaOlteanu/MODBD/tree/main/front-end_module) consists of 3 Spring MVC projects 
 that serve as an interface for solving the requirements needed.  
