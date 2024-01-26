@@ -9,6 +9,7 @@ Another **global database** will be configured that will allow global management
 ## Technologies used
 - Oracle SQL database
 - Spring Framework
+- Thymeleaf
 ## Modules summary
 1. **Analysis report**
       - objective: _creating an analysis report to define the distributed DB and develop the application that will run based on it_
