@@ -12,7 +12,8 @@ Another **global database** will be configured that will allow global management
 ## Modules summary
 1. **Analysis report**
       - objective: _creating an analysis report to define the distributed DB and develop the application that will run based on it_
-  - description of the chosen model, entity and conceptual diagrams for the OLTP database
+  - description of the chosen model
+  - entity and conceptual diagrams for the OLTP database
   - description of the distribution (the number of the servers in the network)
   - arguing the decision to fragment relationships (primary horizontal fragmentation, derivative horizontal fragmentation, vertical fragmentation) and validate the corectness of it
   - arguing the decision to replicate certain relationships or/and store a relationship on a single server
@@ -28,11 +29,12 @@ Another **global database** will be configured that will allow global management
   - view data in the global database
   - evaluate the impact of changes on data stored in the local DB in the global DB
   - the possibility to verify at the local database level the propagation of LMD operations performed at the global database level
+## Collaborative contribution
+- all the points from the Analysis report
 ## Personal contribution
-  - creating and populate the databases
-  - describing the distribution, arguing the fragmantation of the relationships and validate the corectness of it
-  - providing transparency for the model
-  - application development (bd_ro, bd_other)
+- creating and populate the databases - OLTP + DDB (fragmented relationships, replication)
+- providing transparency for the model (create triggers that allow the propagation of insert, delete, update operations)
+- application development - back-end + front-end (for the stations _bd_ro_ and _bd_other_)
 
 
 
